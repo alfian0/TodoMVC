@@ -9,3 +9,8 @@ target 'TodoMVC' do
 	pod 'Alamofire', '3.4.1'
 	pod 'ObjectMapper', '~> 1.3.0'
 end
+
+target 'TodoMVCTests' do
+	use_frameworks!
+	pod 'MockFive'
+end

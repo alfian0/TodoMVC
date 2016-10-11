@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F758D4A1E08669B01D73BE5 /* Pods_TodoMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA23517FE53BBB8B95657E7 /* Pods_TodoMVC.framework */; };
+		D91C594CF628B89BD0931C15 /* Pods_TodoMVCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3469D363B128E27EA45F283B /* Pods_TodoMVCTests.framework */; };
 		FAAC50811DACF103003E7E0F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC50801DACF103003E7E0F /* Constants.swift */; };
 		FAAC50851DACF1A4003E7E0F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC50821DACF1A4003E7E0F /* APIError.swift */; };
 		FAAC50861DACF1A4003E7E0F /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC50831DACF1A4003E7E0F /* TodoItem.swift */; };
@@ -16,6 +17,10 @@
 		FAAC508B1DACF6CF003E7E0F /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC508A1DACF6CF003E7E0F /* TodoListViewController.swift */; };
 		FAAC508D1DACF95E003E7E0F /* UIViewControllerAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC508C1DACF95E003E7E0F /* UIViewControllerAdditions.swift */; };
 		FAAC508F1DACFC0B003E7E0F /* CreateTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC508E1DACFC0A003E7E0F /* CreateTodoViewController.swift */; };
+		FAAC50CF1DAD1DEF003E7E0F /* TodoMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC50CE1DAD1DEF003E7E0F /* TodoMVCTests.swift */; };
+		FAAC50D91DAD1E87003E7E0F /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC50D71DAD1E87003E7E0F /* AccountService.swift */; };
+		FAAC50DA1DAD1E87003E7E0F /* BalanceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC50D81DAD1E87003E7E0F /* BalanceValidator.swift */; };
+		FAAC50DC1DAD1EA0003E7E0F /* BalanceValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC50DB1DAD1EA0003E7E0F /* BalanceValidatorTests.swift */; };
 		FAD44F0A1DABAD730099D708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD44F091DABAD730099D708 /* AppDelegate.swift */; };
 		FAD44F111DABAD730099D708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD44F101DABAD730099D708 /* Assets.xcassets */; };
 		FAD44F141DABAD730099D708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD44F121DABAD730099D708 /* LaunchScreen.storyboard */; };
@@ -28,9 +33,22 @@
 		FAD44F281DABB07D0099D708 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD44F271DABB07D0099D708 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FAAC50D11DAD1DEF003E7E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD44EFE1DABAD730099D708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD44F051DABAD730099D708;
+			remoteInfo = TodoMVC;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3469D363B128E27EA45F283B /* Pods_TodoMVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoMVCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBA79AC3F57B92F621A2129 /* Pods-TodoMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoMVC/Pods-TodoMVC.debug.xcconfig"; sourceTree = "<group>"; };
 		6D62115FA7ED08761D21D2F2 /* Pods-TodoMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoMVC/Pods-TodoMVC.release.xcconfig"; sourceTree = "<group>"; };
+		A59DD7947B48F73B01EE636D /* Pods-TodoMVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoMVCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoMVCTests/Pods-TodoMVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC320F3E3C9DFA99656FC5AC /* Pods-TodoMVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoMVCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoMVCTests/Pods-TodoMVCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDA23517FE53BBB8B95657E7 /* Pods_TodoMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAC50801DACF103003E7E0F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FAAC50821DACF1A4003E7E0F /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
@@ -40,6 +58,12 @@
 		FAAC508A1DACF6CF003E7E0F /* TodoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		FAAC508C1DACF95E003E7E0F /* UIViewControllerAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerAdditions.swift; sourceTree = "<group>"; };
 		FAAC508E1DACFC0A003E7E0F /* CreateTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTodoViewController.swift; sourceTree = "<group>"; };
+		FAAC50CC1DAD1DEF003E7E0F /* TodoMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAC50CE1DAD1DEF003E7E0F /* TodoMVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoMVCTests.swift; sourceTree = "<group>"; };
+		FAAC50D01DAD1DEF003E7E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAC50D71DAD1E87003E7E0F /* AccountService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		FAAC50D81DAD1E87003E7E0F /* BalanceValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceValidator.swift; sourceTree = "<group>"; };
+		FAAC50DB1DAD1EA0003E7E0F /* BalanceValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceValidatorTests.swift; sourceTree = "<group>"; };
 		FAD44F061DABAD730099D708 /* TodoMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD44F091DABAD730099D708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD44F101DABAD730099D708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +79,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FAAC50C91DAD1DEF003E7E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91C594CF628B89BD0931C15 /* Pods_TodoMVCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAD44F031DABAD730099D708 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +103,8 @@
 			children = (
 				5CBA79AC3F57B92F621A2129 /* Pods-TodoMVC.debug.xcconfig */,
 				6D62115FA7ED08761D21D2F2 /* Pods-TodoMVC.release.xcconfig */,
+				AC320F3E3C9DFA99656FC5AC /* Pods-TodoMVCTests.debug.xcconfig */,
+				A59DD7947B48F73B01EE636D /* Pods-TodoMVCTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -79,14 +113,36 @@
 			isa = PBXGroup;
 			children = (
 				EDA23517FE53BBB8B95657E7 /* Pods_TodoMVC.framework */,
+				3469D363B128E27EA45F283B /* Pods_TodoMVCTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAAC50CD1DAD1DEF003E7E0F /* TodoMVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC50CE1DAD1DEF003E7E0F /* TodoMVCTests.swift */,
+				FAAC50D01DAD1DEF003E7E0F /* Info.plist */,
+				FAAC50DB1DAD1EA0003E7E0F /* BalanceValidatorTests.swift */,
+			);
+			path = TodoMVCTests;
+			sourceTree = "<group>";
+		};
+		FAAC50D61DAD1E87003E7E0F /* SwiftBasics */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC50D71DAD1E87003E7E0F /* AccountService.swift */,
+				FAAC50D81DAD1E87003E7E0F /* BalanceValidator.swift */,
+			);
+			path = SwiftBasics;
 			sourceTree = "<group>";
 		};
 		FAD44EFD1DABAD730099D708 = {
 			isa = PBXGroup;
 			children = (
+				FAAC50D61DAD1E87003E7E0F /* SwiftBasics */,
 				FAD44F081DABAD730099D708 /* TodoMVC */,
+				FAAC50CD1DAD1DEF003E7E0F /* TodoMVCTests */,
 				FAD44F071DABAD730099D708 /* Products */,
 				5F30E6C01848D7BF0A996FB4 /* Pods */,
 				9169793DF86F93E2F50205B2 /* Frameworks */,
@@ -97,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD44F061DABAD730099D708 /* TodoMVC.app */,
+				FAAC50CC1DAD1DEF003E7E0F /* TodoMVCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +187,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FAAC50CB1DAD1DEF003E7E0F /* TodoMVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAC50D51DAD1DEF003E7E0F /* Build configuration list for PBXNativeTarget "TodoMVCTests" */;
+			buildPhases = (
+				AE3F36231172E17E21C37FC4 /* [CP] Check Pods Manifest.lock */,
+				FAAC50C81DAD1DEF003E7E0F /* Sources */,
+				FAAC50C91DAD1DEF003E7E0F /* Frameworks */,
+				FAAC50CA1DAD1DEF003E7E0F /* Resources */,
+				53D9675B0939727E2A6769B0 /* [CP] Embed Pods Frameworks */,
+				D8BB614A27055A7E43900981 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAC50D21DAD1DEF003E7E0F /* PBXTargetDependency */,
+			);
+			name = TodoMVCTests;
+			productName = TodoMVCTests;
+			productReference = FAAC50CC1DAD1DEF003E7E0F /* TodoMVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FAD44F051DABAD730099D708 /* TodoMVC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD44F181DABAD730099D708 /* Build configuration list for PBXNativeTarget "TodoMVC" */;
@@ -160,6 +238,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = GoJek;
 				TargetAttributes = {
+					FAAC50CB1DAD1DEF003E7E0F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FAD44F051DABAD730099D708;
+					};
 					FAD44F051DABAD730099D708 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -179,11 +261,19 @@
 			projectRoot = "";
 			targets = (
 				FAD44F051DABAD730099D708 /* TodoMVC */,
+				FAAC50CB1DAD1DEF003E7E0F /* TodoMVCTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FAAC50CA1DAD1DEF003E7E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAD44F041DABAD730099D708 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +322,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoMVC/Pods-TodoMVC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		53D9675B0939727E2A6769B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoMVCTests/Pods-TodoMVCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		72D06AE77EA6D638FB286E8C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,14 +352,54 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoMVC/Pods-TodoMVC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AE3F36231172E17E21C37FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8BB614A27055A7E43900981 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoMVCTests/Pods-TodoMVCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FAAC50C81DAD1DEF003E7E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC50CF1DAD1DEF003E7E0F /* TodoMVCTests.swift in Sources */,
+				FAAC50DC1DAD1EA0003E7E0F /* BalanceValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAD44F021DABAD730099D708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FAAC508B1DACF6CF003E7E0F /* TodoListViewController.swift in Sources */,
+				FAAC50DA1DAD1E87003E7E0F /* BalanceValidator.swift in Sources */,
 				FAAC50861DACF1A4003E7E0F /* TodoItem.swift in Sources */,
 				FAAC50891DACF3B5003E7E0F /* AuthManager.swift in Sources */,
 				FAD44F281DABB07D0099D708 /* LoginViewController.swift in Sources */,
@@ -262,12 +407,21 @@
 				FAAC50851DACF1A4003E7E0F /* APIError.swift in Sources */,
 				FAD44F0A1DABAD730099D708 /* AppDelegate.swift in Sources */,
 				FAAC508D1DACF95E003E7E0F /* UIViewControllerAdditions.swift in Sources */,
+				FAAC50D91DAD1E87003E7E0F /* AccountService.swift in Sources */,
 				FAAC508F1DACFC0B003E7E0F /* CreateTodoViewController.swift in Sources */,
 				FAAC50811DACF103003E7E0F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAAC50D21DAD1DEF003E7E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD44F051DABAD730099D708 /* TodoMVC */;
+			targetProxy = FAAC50D11DAD1DEF003E7E0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FAD44F121DABAD730099D708 /* LaunchScreen.storyboard */ = {
@@ -281,6 +435,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FAAC50D31DAD1DEF003E7E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC320F3E3C9DFA99656FC5AC /* Pods-TodoMVCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TodoMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gojek.TodoMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoMVC.app/TodoMVC";
+			};
+			name = Debug;
+		};
+		FAAC50D41DAD1DEF003E7E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59DD7947B48F73B01EE636D /* Pods-TodoMVCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TodoMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gojek.TodoMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoMVC.app/TodoMVC";
+			};
+			name = Release;
+		};
 		FAD44F161DABAD730099D708 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -391,6 +571,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FAAC50D51DAD1DEF003E7E0F /* Build configuration list for PBXNativeTarget "TodoMVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC50D31DAD1DEF003E7E0F /* Debug */,
+				FAAC50D41DAD1DEF003E7E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FAD44F011DABAD730099D708 /* Build configuration list for PBXProject "TodoMVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
