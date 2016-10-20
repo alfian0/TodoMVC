@@ -53,10 +53,10 @@ class CreateTodoViewMock : ICreateTodoView, Mock {
 }
 
 
-class TodoServiceMock: ICreateTodoService, Mock {
+class TodoServiceMock: ITodoService, Mock {
     let mockFiveLock: String = lock()
     
-    func createNewTodoWithDescription(description: String, success: NetworkSuccesCallback, failure: NetworkFailureCallback) {
+    func addTodo(description: String, success: NetworkSuccesCallback, failure: NetworkFailureCallback) {
         return stub(identifier: "addTodo", arguments: (description, success, failure)) { _ in
             return
         }

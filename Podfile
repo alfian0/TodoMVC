@@ -13,4 +13,6 @@ end
 target 'TodoMVCTests' do
 	use_frameworks!
 	pod 'MockFive'
+    pod 'Quick', '~> 0.9.3'
+    pod 'Nimble', '~> 4.1.0'
 end
