@@ -1,0 +1,14 @@
+{
+    "error" : null,
+    "data" :
+    {
+        "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySUQiOiI1ODA4MDY2MDZiMzNlMDY4NTUwNjI0YjEiLCJpYXQiOiIyMDE2LTEwLTE5VDIzOjQ4OjQ4LjY0MVoifQ.ayErlqZvKljJnQkvytjVJZfcZFMPXh0NROmxuyhDWtc",
+        "user" :
+        {
+            "_id" : "580806606b33e068550624b1",
+            "username" : "alfiansyah@go-jek.com",
+            "__v" : 0,
+            "todos" : []
+        }
+    }
+}
